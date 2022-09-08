@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1f"
+    tools:context=".activities.SettingsActivity">
+
+    <ImageView
+        android:id="@+id/settingBackButtonImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/baseline_arrow_back_ios_white_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingBackTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:padding="20dp"
+        android:text="@string/video_status_text"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/settingBackButtonImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/shareAppLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:weightSum="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/settingBackTitleTextView">
+
+        <TextView
+            android:id="@+id/settingShareAppTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:text="@string/share_app"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/settingShareAppArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/baseline_arrow_forward_ios_white_24" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/shareAppSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#bbb"
+        app:layout_constraintTop_toBottomOf="@id/shareAppLayout" />
+
+    <LinearLayout
+        android:id="@+id/privacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:weightSum="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shareAppSeparator">
+
+        <TextView
+            android:id="@+id/settingPrivacyPolicyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:text="@string/privacy_police"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/settingPrivacyPoliceArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/baseline_arrow_forward_ios_white_24" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/privacySeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#bbb"
+        app:layout_constraintTop_toBottomOf="@id/privacyPolicy" />
+
+    <LinearLayout
+        android:id="@+id/RateUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:weightSum="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/privacySeparator">
+
+        <TextView
+            android:id="@+id/settingRateUSTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:text="@string/rate_us"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/settingRateUSArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/baseline_arrow_forward_ios_white_24" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/rateUsSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#bbb"
+        app:layout_constraintTop_toBottomOf="@id/RateUs" />
+
+
+    <FrameLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

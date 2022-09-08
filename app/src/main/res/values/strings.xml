@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ganesha HD Video Status</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_activity_title_name">KRISHNA MOTIVATIONAL STATUS</string>
+    <string name="main_activity_sub_title">Video Status</string>
+    <string name="main_activity_view_all_text">View All</string>
+    <string name="video_status_text">Video Status</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_police"><![CDATA[Privacy & Policy]]></string>
+    <string name="rate_us">Rate US</string>
+    <string name="more_app">More App</string>
+    <string name="title_activity_policy">policy</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for admob integration -->
+<!--    <string name="admob_app_id">ca-app-pub-7652469580821173~9665939163</string>-->
+<!--    <string name="admob_banner">ca-app-pub-7652469580821173/2316742811</string>-->
+<!--    <string name="admob_interstitial">ca-app-pub-7652469580821173/7908637385</string>-->
+<!--    <string name="admob_native">ca-app-pub-7652469580821173/5386415820</string>-->
+<!--    <string name="applovin_sdk_key">VGfeUDypinrdF6OdLMx48alFlXJ24T9W60ErSs1uotzCt5MblwkX30LCp5ziI8TXZLe2h5KhWnT4dIIA-xvarg</string>-->
+
+
+<!--    <string name="ad_attribution">Ad</string>-->
+</resources>
